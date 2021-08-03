@@ -51,12 +51,8 @@ function Forms({ template, onSubmit }) {
             <div key={name}>
               <label class="form-label" htmlFor={name}>{name}</label>
               <input 
-                class="form-control" 
-                type="email" 
-                name={name} 
+                class="form-control"
                 id={name} 
-                required={required} 
-                {...register(`${name}`)} 
                 placeholder="Invalid field type..."
                 readOnly
               />

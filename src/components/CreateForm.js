@@ -103,6 +103,7 @@ function CreateForm() {
                 value={newForm.fields[0].dataType}
                 onChange={(e) => handleChange(e, newForm.fields[0])}
               >
+                <option value="" selected disabled>Select a value</option>
                 <option value="NUMBER">Number</option>
                 <option value="STRING">String</option>
                 <option value="DATE">Date</option>
@@ -149,6 +150,7 @@ function CreateForm() {
                 value={newForm.fields[1].dataType}
                 onChange={(e) => handleChange(e, newForm.fields[1])}
               >
+                <option value="" selected disabled>Select a value</option>
                 <option value="NUMBER">Number</option>
                 <option value="STRING">String</option>
                 <option value="DATE">Date</option>
@@ -195,6 +197,7 @@ function CreateForm() {
                 value={newForm.fields[2].dataType}
                 onChange={(e) => handleChange(e, newForm.fields[2])}
               >
+                <option value="" selected disabled>Select a value</option>
                 <option value="NUMBER">Number</option>
                 <option value="STRING">String</option>
                 <option value="DATE">Date</option>
