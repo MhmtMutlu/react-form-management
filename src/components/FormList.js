@@ -16,7 +16,6 @@ function FormList() {
         let index = forms.findIndex(form => form.name === targetId);
         forms.splice(index, 1);
         setForms(filteredForms(forms));
-        console.log("Forms: ", forms);
         localStorage.setItem("form",  JSON.stringify(forms));
         alertify.error("Form has been deleted!")
       }
